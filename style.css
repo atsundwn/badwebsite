@@ -1,0 +1,46 @@
+header {
+      text-align: center;
+      background: url('images/milkyway.png');
+      background-size: cover;
+      background-position: top;
+      color: white;
+    }
+a {
+  color: white;
+}
+h1 {
+  font-size: 70px;
+  padding-top: 50px;
+  margin-top: 0;
+}
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+img {
+  border: 7px solid black;
+  border-radius: 20px;
+}
+article {
+  text-align: center;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
+}
+body {
+  background-color: black;
+  color: white;
+}
